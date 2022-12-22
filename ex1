@@ -1,0 +1,9 @@
+
+echo "Entrez le nom du répertoire à créer :"
+read repertoire
+if [ -d "$repertoire" ]; then
+  echo "Le répertoire $repertoire existe déjà !"
+else
+  mkdir "$repertoire"
+  echo "Le répertoire $repertoire a été créé avec succès."
+fi

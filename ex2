@@ -1,0 +1,6 @@
+repertoire=$1
+if [ -d "$repertoire" ]; then
+    echo "$repertoire existe sur mon compte"
+else
+    echo "$repertoire n'existe pas sur mon compte"
+fi
